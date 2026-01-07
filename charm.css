@@ -1,0 +1,64 @@
+html {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    background-color: lightsteelblue;
+}
+img.fade-banner {
+
+    background-image: url(img/heading_Banner.png);
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+    
+
+    animation: fadeIn 5s;
+}
+/* h1.fade-in {
+    text-align: center;
+
+    font-size: 100px;
+
+    animation: fadeIn 5s;
+
+    margin-bottom: 0%;
+
+
+    
+}
+h2.fade-in {
+    text-align: center;
+    margin-top: 0%;
+    font-size: 25px;
+    animation: fadeIn 5s;
+    
+} */
+
+@keyframes fadeIn {
+    0% { opacity: 0; };
+  100% { opacity: 1; };
+}
+h2.subtitle {
+    font-style: italic;
+}
+h3 {
+    font-style: italic;
+}
+section { 
+    height: 100vh;
+}
+
+p {
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue;
+
+    padding: 15px;
+    margin: auto;
+}
+
